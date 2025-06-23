@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to My Blog!",
+      "content": "This is my first blog post, and I'm excited to start sharing my journey as a web developer. I’ve been learning HTML, CSS, and JavaScript, and every day brings a new challenge and lesson. My goal is to document what I learn, the projects I build, and the mistakes I make along the way. Hopefully, others who are just starting out will find this helpful too.",
+      "author": "hehee"
+    },
+    {
+      "id": 2,
+      "title": "Reasons to Learn JavaScript",
+      "content": "JavaScript is everywhere — from websites to mobile apps, and even servers. Learning JavaScript opens doors to frontend frameworks like React and backend tools like Node.js. It also helps you build interactive user experiences and understand how the web really works. If you’re serious about being a full-stack developer, JavaScript is non-negotiable.",
+      "author": "weweee"
+     
+    },
+    {
+      "id": 3,
+      "title": "Balance Learning & Rest",
+      "content": "In the early days of learning to code, I pushed myself too hard. I thought the more hours I put in, the faster I’d learn. But I quickly learned that burnout is real. Now, I prioritize breaks, get sleep, and pace my learning. This approach actually helps me retain more and stay motivated longer.",
+      "author": "meeee"
+    },
+    {
+      "id": 4,
+      "title": "Understanding HTML Structure",
+      "content": "HTML is not just a markup language — it defines the structure of your content. Proper use of semantic tags like <header>, <main>, and <footer> improves accessibility and SEO. Understanding how elements are nested and how the DOM reflects this structure is key to working with JavaScript and CSS effectively.",
+      "author": "yaaaas"
+    },
+    {
+      "id": 5,
+      "title": "CSS Tips for Beginners",
+      "content": "CSS can be intimidating at first, but a few simple tips can make it manageable: use class selectors to keep your code organized, embrace Flexbox and Grid for layout, and learn the box model inside and out. Don't forget to keep your styles consistent with reusable variables and avoid over-specific selectors.",
+      "author": "StyleQueen"
+    }
+  ]
+}

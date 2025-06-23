@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Post Manager</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>Post Pulse</h1>
+  <div id = "container">
+    <div id="post-list"></div>
+
+  <div id="post-detail">
+    <h2 id="post-title"></h2>
+    <p id="post-content"></p>
+    <p id ="post-author"></p>
+  </div>
+  </div>
+
+  <form id="new-post-form">
+    <input type="text" id="title" placeholder="Post Title" required />
+    <input type="text" id="author" placeholder="Author name" required />
+    <textarea id="content" placeholder="Write your post content" required></textarea>
+    <button type="submit">Add Post</button>
+    <button type="button" id="cancel-btn">Cancel</button>
+
+  </form>
+
+  <script src="src/index.js"></script>
+</body>
+</html>
