@@ -42,7 +42,6 @@ function addNewPostListener (){
         title: document.getElementById("title").value,
         author: document.getElementById("author").value,
         content: document.getElementById("content").value,
-        image: document.getElementById("image").value,
     };    
     // append to the DOM
     const postList = document.getElementById("post-list");
@@ -58,19 +57,14 @@ function addNewPostListener (){
 
     const author = document.createElement("small");
     author.textContent = `By: ${addPost.author}`;
-
-    const img = document.createElement("img");
-    img.src = addPost.image;
-    img.alt = "Blog image";
-
     postItem.addEventListener("click", handlePostClick);
 
     postItem.appendChild(title);
     postItem.appendChild(content);
     postItem.appendChild(author);
-    postItem.appendChild(img);
-
     postList.appendChild(postItem);
+
+    form.reset();
 
     });
     }

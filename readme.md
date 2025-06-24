@@ -16,7 +16,7 @@ A web app that allows users to create, view, and interact with blog posts using 
 - HTML
 - CSS
 - JavaScript (Vanilla)
-- [JSON Server](https://www.npmjs.com/package/json-server) for mock backend
+- [JSON Server] for mock backend
 
 
 ### Prerequisites
@@ -29,6 +29,3 @@ A web app that allows users to create, view, and interact with blog posts using 
 1. Clone the repo
 2. Start the mock server with json-server --watch db.js
 3. Open index.html in your browser, you can use Live Server
-
-
-
